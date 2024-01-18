@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    	 int numİstenilen, factSonuc = 1;
+	int n = 1;
+	cout << "Faktöriyelini bulmak istediğiniz sayıyı giriniz :" << endl;
+   	cin >> numİstenilen;
+    	while(n <= numİstenilen)
+    	{
+        		factSonuc = factSonuc * n;
+        		n ++;
+    	}
+	cout << "Girdiğiniz sayının faktöriyel olarak karşılığı: " << factSonuc << endl;
+	return 0;
+}
